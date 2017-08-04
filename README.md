@@ -11,6 +11,8 @@ Contributions to this repository as pull requests are welcome!
 This LaTeX document class has been designed to typeset exams.
 To make the ```.cls``` from the ```.dtx``` one, just run
 ```make```.
+Read the manual for more informations.
+
 The processed files ready to be included can be downloaded from
 the following links:
 
@@ -21,8 +23,11 @@ the following links:
 <a href="https://alexpacini.github.io/cesenaexam/build/cesenaexam.cls" download="cesenaexam.cls">Download cesenaexam Class File</a>
 
 To use the class file, just drop it in the same folder as the ```.tex``` source file and use ```cesenaexam``` in the
-```\documentclass[a4paper, 10pt]{cesenaexam}```.
-Read the manual for more informations.
+```\documentclass[a4paper, 10pt]{cesenaexam}``` or download the last published version from the archive below.
+
+## Tag Archive
+[cesenaexam v0.2](https://github.com/alexpacini/cesenaexam/archive/v0.2.zip)
+
 
 
 
