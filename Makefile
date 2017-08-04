@@ -16,7 +16,7 @@ cls:
 	makeindex -s gind.ist -o cesenaexam.ind cesenaexam.idx && \
 	latexmk -pdf -pdflatex="pdflatex -interaction=nonstopmode" cesenaexam.dtx && \
 	rm cesenaexam.dtx && \
-	cp README.txt ../
+	cp README.md ../
 
 example:
 	cp cesenaexam_example.tex ./build/cesenaexam_example.tex
@@ -28,4 +28,4 @@ example:
 	
 clean:
 	cd ./build && \
-	rm -r *.aux *_latexmk *.fls *.glo *.gls *.hd *.idx *.ilg *.ind *.ins *.log *.out *.toc README.txt
+	rm -r *.aux *_latexmk *.fls *.glo *.gls *.hd *.idx *.ilg *.ind *.ins *.log *.out *.toc README.md
