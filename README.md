@@ -14,11 +14,15 @@ To make the ```.cls``` from the ```.dtx``` one, just run
 The processed files ready to be included can be downloaded from
 the following links:
 
-[cesenaexam Manual](https://alexpacini.github.io/cesenaexam/build/cesenaexam.pdf)
+[Download cesenaexam Manual](https://alexpacini.github.io/cesenaexam/build/cesenaexam.pdf)
 
-[cesenaexam Example](https://alexpacini.github.io/cesenaexam/build/cesenaexam_example.pdf)
+[Download cesenaexam Example](https://alexpacini.github.io/cesenaexam/build/cesenaexam_example.pdf)
 
-<a href="https://alexpacini.github.io/cesenaexam/build/cesenaexam.cls" download="cesenaexam.cls">cesenaexam Class File</a>
+<a href="https://alexpacini.github.io/cesenaexam/build/cesenaexam.cls" download="cesenaexam.cls">Download cesenaexam Class File</a>
+
+To use the class file, just drop it in the same folder as the ```.tex``` source file and use ```cesenaexam``` in the
+```\documentclass[a4paper, 10pt]{cesenaexam}```.
+Read the manual for more informations.
 
 
 
