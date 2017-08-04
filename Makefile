@@ -1,4 +1,4 @@
-.PHONY : example cls all clean clsfast
+.PHONY : example cls all clean clsfast ctan
 
 all: cls example clean
 
@@ -28,4 +28,17 @@ example:
 	
 clean:
 	cd ./build && \
-	rm -r *.aux *_latexmk *.fls *.glo *.gls *.hd *.idx *.ilg *.ind *.ins *.log *.out *.toc README.md
+	rm -r *.aux *_latexmk *.fls *.glo *.gls *.hd *.idx *.ilg *.ind *.log *.out *.toc README.md
+
+ctan:
+	mkdir cesenaexam
+	cp Makefile ./cesenaexam/
+	cp README.md ./cesenaexam/
+	cp cesenaexam.dtx ./cesenaexam/
+	cp ./build/cesenaexam.pdf ./cesenaexam/
+	cp ./build/cesenaexam.ins ./cesenaexam/
+	cp ./build/cesenaexam.cls ./cesenaexam/
+	cp ./build/cesenaexam.sty ./cesenaexam/
+	cp cesenaexam_example.tex ./cesenaexam/
+	cp ./build/cesenaexam_example.pdf ./cesenaexam/
+	zip -r9 cesenaexam.zip ./cesenaexam
