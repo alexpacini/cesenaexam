@@ -18,7 +18,7 @@ the following links:
 
 [cesenaexam Example](https://alexpacini.github.io/cesenaexam/build/cesenaexam_example.pdf)
 
-[cesenaexam Class File (**Save with file extension .cls**)](https://alexpacini.github.io/cesenaexam/build/cesenaexam.cls)
+<a href="https://alexpacini.github.io/cesenaexam/build/cesenaexam.cls" download="cesenaexam.cls">cesenaexam Class File</a>
 
 
 
