@@ -31,7 +31,7 @@ clean:
 	rm -r *.aux *_latexmk *.fls *.glo *.gls *.hd *.idx *.ilg *.ind *.log *.out *.toc README.md
 
 ctan:
-	mkdir cesenaexam
+	mkdir -p cesenaexam
 	cp Makefile ./cesenaexam/
 	cp README.md ./cesenaexam/
 	cp cesenaexam.dtx ./cesenaexam/
@@ -42,3 +42,4 @@ ctan:
 	cp cesenaexam_example.tex ./cesenaexam/
 	cp ./build/cesenaexam_example.pdf ./cesenaexam/
 	zip -r9 cesenaexam.zip ./cesenaexam
+	rm -r ./cesenaexam
