@@ -1,3 +1,4 @@
+# cesenaexam LaTeX class
 ```
 ----------------------------------------------------------------
 cesenaexam --- class file to typeset exams
@@ -26,7 +27,7 @@ To use the class file, just drop it in the same folder as the ```.tex``` source 
 ```\documentclass[a4paper, 10pt]{cesenaexam}``` or download the last published version from the archive below.
 
 ## Tag Archive
-[cesenaexam v0.2](https://github.com/alexpacini/cesenaexam/archive/v0.2.zip)
+- [2017-08-04 - cesenaexam v0.2](https://github.com/alexpacini/cesenaexam/archive/v0.2.zip)
 
 
 
