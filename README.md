@@ -13,8 +13,11 @@ To make the ```.cls``` from the ```.dtx``` one, just run
 ```make```.
 The processed files ready to be included can be downloaded from
 the following links:
+
 [cesenaexam Manual](https://alexpacini.github.io/cesenaexam/build/cesenaexam.pdf)
+
 [cesenaexam Example](https://alexpacini.github.io/cesenaexam/build/cesenaexam_example.pdf)
+
 [cesenaexam Class File (**Save with file extension .cls**)](https://alexpacini.github.io/cesenaexam/build/cesenaexam.cls)
 
 
