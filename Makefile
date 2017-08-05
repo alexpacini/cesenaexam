@@ -32,13 +32,12 @@ clean:
 
 ctan:
 	mkdir -p cesenaexam
+	rm -f cesenaexam.zip
 	cp Makefile ./cesenaexam/
 	cp README.md ./cesenaexam/
 	cp cesenaexam.dtx ./cesenaexam/
 	cp ./build/cesenaexam.pdf ./cesenaexam/
 	cp ./build/cesenaexam.ins ./cesenaexam/
-	cp ./build/cesenaexam.cls ./cesenaexam/
-	cp ./build/cesenaexam.sty ./cesenaexam/
 	cp cesenaexam_example.tex ./cesenaexam/
 	cp ./build/cesenaexam_example.pdf ./cesenaexam/
 	zip -r9 cesenaexam.zip ./cesenaexam
